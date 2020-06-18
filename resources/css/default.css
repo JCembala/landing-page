@@ -24,6 +24,10 @@ header {
     width: 60vw;
 }
 
+#header-logo {
+    padding-left: 30px;
+}
+
 nav {
     font-weight: 400;
 }
