@@ -173,3 +173,25 @@ a {
     background-color: #dd2;
     font-weight: 600;
 }
+
+footer {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #ddd;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > ul > li {
+    padding-left: 15px;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    color: #888;
+}
