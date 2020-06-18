@@ -74,7 +74,7 @@ a {
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: rgb(202, 205, 50);
+    background-color: #dd2;
 }
 
 .btn {
@@ -89,6 +89,46 @@ a {
     cursor: pointer;
 }
 
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 20vw;
+    color: #db2;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 80vw;
+    padding: 5px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#how-it-works > iframe {
+    max-width: 600px;
+    width: 100%;
+    height: 315px;
+}
 #pricing {
     display: flex;
     flex-direction: row;
@@ -130,6 +170,6 @@ a {
 .product > button {
     border: 0;
     margin: 18px;
-    background-color: rgb(202, 205, 50);
+    background-color: #dd2;
     font-weight: 600;
 }
