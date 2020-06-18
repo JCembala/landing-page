@@ -107,6 +107,26 @@ a {
     border-radius: 3px;
 }
 
+.product > .level {
+    background-color: #ddd;
+    color: #000;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.product > h2 {
+    margin-top: 15px;
+}
+
+.product > ol {
+    margin: 10px 0;
+}
+
+.product > ol > li {
+    padding: 5px 0;
+}
 .product > button {
     border: 0;
     margin: 18px;
